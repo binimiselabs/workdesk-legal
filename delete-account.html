@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your WorkDesk account</title>
+<style>
+  :root { --navy:#1B2A6B; --blue:#1A73E8; --ink:#0F172A; --muted:#475569; --line:#E2E8F0; --bg:#fff; --card:#F3F7FF; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --ink:#E2E8F0; --muted:#94A3B8; --line:#1E293B; --bg:#0B1220;
+      --card:#111A2E; --navy:#93B4FF; --blue:#7FA9FF; }
+  }
+  :root[data-theme="dark"] { --ink:#E2E8F0; --muted:#94A3B8; --line:#1E293B; --bg:#0B1220;
+    --card:#111A2E; --navy:#93B4FF; --blue:#7FA9FF; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px 96px; }
+  h1 { color:var(--navy); font-size:2rem; margin:0 0 .25rem; letter-spacing:-.02em; }
+  .sub { color:var(--muted); margin:0 0 2rem; }
+  h2 { color:var(--navy); font-size:1.15rem; margin:2.5rem 0 .5rem; }
+  ol { padding-left:1.3rem; } li { margin:.5rem 0; }
+  table { border-collapse:collapse; width:100%; margin:1rem 0; font-size:.95rem; }
+  th,td { text-align:left; padding:.6rem .75rem; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--navy); font-weight:600; }
+  a { color:var(--blue); }
+  .box { background:var(--card); border-left:3px solid var(--blue);
+         padding:.9rem 1.1rem; border-radius:0 8px 8px 0; margin:1.25rem 0; }
+  footer { margin-top:3rem; padding-top:1.5rem; border-top:1px solid var(--line);
+           color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Delete your WorkDesk account</h1>
+<p class="sub">WorkDesk, by Binimise Labs · Android package <code>com.binimise.staff.services</code></p>
+
+<p>This page explains how to ask us to delete your WorkDesk account and the data held
+against it. You do not need to be signed in to make the request.</p>
+
+<h2>How to request deletion</h2>
+
+<ol>
+  <li>Send an email to <a href="mailto:privacy@binimise.com?subject=WorkDesk%20account%20deletion%20request">privacy@binimise.com</a>
+      with the subject <strong>WorkDesk account deletion request</strong>.</li>
+  <li>Include the <strong>mobile number or email address</strong> you use to sign in to WorkDesk,
+      and the <strong>company name</strong> your account belongs to.</li>
+  <li>Say whether you want your <strong>whole account deleted</strong>, or only <strong>specific data</strong>
+      such as your enrolled face image.</li>
+  <li>We reply to confirm the request within 7 days and complete it within 30 days.</li>
+</ol>
+
+<div class="box">
+  If you still work for the organisation that added you to WorkDesk, tell your administrator as
+  well. They control the attendance records kept about you, and employment or payroll law may
+  require them to retain some of those records even after your account is removed.
+</div>
+
+<h2>What is deleted</h2>
+
+<table>
+  <tr><th>Data</th><th>What happens</th><th>When</th></tr>
+  <tr><td>Your profile — name, mobile number, email, job role</td>
+      <td>Deleted</td><td>Within 30 days of the request</td></tr>
+  <tr><td>Your enrolled face image and face template</td>
+      <td>Deleted</td><td>Within 30 days of the request</td></tr>
+  <tr><td>Your sign-in session and PIN</td>
+      <td>Deleted immediately, signing you out of every device</td><td>On deletion</td></tr>
+  <tr><td>Notification token</td><td>Deleted</td><td>On deletion</td></tr>
+  <tr><td>Attendance records — punch times, work site, hours</td>
+      <td>Kept by your employer for as long as their retention policy and local employment or
+          payroll law require, then deleted. Ask us to delete only these and we will pass the
+          request to your employer and tell you we have done so.</td>
+      <td>Per employer policy</td></tr>
+  <tr><td>Backups</td><td>Overwritten on the normal backup rotation</td><td>Within 90 days</td></tr>
+</table>
+
+<h2>Deleting only some data</h2>
+<p>You can ask us to delete your face enrolment while keeping your account. Say so in the email
+and you will be able to keep using WorkDesk, enrolling your face again later if your organisation
+requires a face punch.</p>
+
+<h2>Contact</h2>
+<p>
+  Binimise Labs<br>
+  <a href="mailto:privacy@binimise.com">privacy@binimise.com</a><br>
+  Privacy policy: <a href="./">WorkDesk Privacy Policy</a>
+</p>
+
+<footer>
+  This page applies to the WorkDesk Android application, package
+  <code>com.binimise.staff.services</code>, published by Binimise Labs.
+</footer>
+
+</main>
+</body>
+</html>
